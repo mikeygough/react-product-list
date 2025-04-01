@@ -1,9 +1,8 @@
 import data from './data.json';
+import { parsePrice } from './helpers';
 
 // base challenges:
 const categoriesList = data.map((x) => x.category);
-
-const parsePrice = (price) => parseFloat(price.replace(/\$/g, ''));
 
 export const categories = [...categoriesList];
 

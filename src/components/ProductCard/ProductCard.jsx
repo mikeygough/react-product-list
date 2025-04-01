@@ -4,8 +4,8 @@ import './ProductCard.css';
 export default function ProductCard({ product }) {
   return (
     <div className="ProductCard">
-      <section class="product-list">
-        <article class="product">
+      <section className="product-list">
+        <article className="product">
           <h2>{product.name}</h2>
           <h3>{product.category}</h3>
           <p>Price: {product.price}</p>
